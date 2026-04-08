@@ -1,0 +1,13 @@
+version: '1.0'
+type: container
+services:
+  sentinel-defi:
+    image: your-docker-hub-username/sentinel-defi:latest # 后面我们会替换成你的镜像地址
+    resources:
+      gpu:
+        count: 1
+    env:
+      OPENAI_API_KEY: ${OPENAI_API_KEY}
+      TELEGRAM_BOT_TOKEN: ${TELEGRAM_BOT_TOKEN}
+      SOLANA_RPC_URL: ${SOLANA_RPC_URL}
+      SOLANA_PUBLIC_KEY: ${SOLANA_PUBLIC_KEY}
