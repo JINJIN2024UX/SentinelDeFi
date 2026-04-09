@@ -30,6 +30,16 @@ Infrastructure: Bun Runtime & Nosana Compute Grid
 
 Communication: Telegram Bot API
 
+## ⚡ Live Deployment on Nosana
+SentinelDeFi is containerized and fully deployed on the **Nosana Decentralized GPU Network**. This ensures that our legal-tech sentinel operates on a resilient, censorship-resistant infrastructure.
+
+**Deployment Proof:**
+![Nosana Deployment Status](https://github.com/JINJIN2024UX/SentinelDeFi/raw/main/nosana-status.png)
+
+* **Deployment ID:** `sentinel-defi-official`
+* **Infrastructure:** NVIDIA 3060 Node (Decentralized Compute)
+* **Status:** [Verified RUNNING]
+
 🚀 Quick Start
 1. Prerequisites
 Bun installed.
@@ -38,9 +48,10 @@ A Solana wallet with some SOL/USDC.
 
 2. Installation
 Bash
-git clone https://github.com/your-username/SentinelDeFi.git
+git clone https://github.com/JINJIN2024UX/SentinelDeFi.git
 cd SentinelDeFi
 bun install
+
 3. Environment Setup
 Copy the .env.example to .env and fill in your credentials:
 
